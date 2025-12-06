@@ -1,0 +1,134 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: rgb(16, 16, 82);
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(5, 5, 48);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: rgb(185, 115, 250);
+}
+
+/* HERO */
+.about-hero {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.about-hero span {
+  color: rgb(185, 115, 250);
+}
+
+.about-hero p {
+  max-width: 700px;
+  margin: auto;
+  color: gray;
+  font-size: 15px;
+}
+
+/* ABOUT CONTAINER */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 70px 120px;
+  flex-wrap: wrap;
+}
+
+.about-left img {
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(185, 115, 250, 0.4);
+}
+
+/* ABOUT RIGHT */
+.about-right h2 {
+  margin-bottom: 15px;
+}
+
+.about-right p {
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: rgb(185, 115, 250);
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  background-color: rgb(5, 5, 48);
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin: 6px 6px 6px 0;
+  font-size: 13px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background-color: #4141b9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* EXPERIENCE */
+.about-experience {
+  padding: 60px 120px;
+  text-align: center;
+}
+
+.timeline {
+  max-width: 700px;
+  margin: auto;
+}
+
+.timeline-item {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgb(5, 5, 48);
+  border-radius: 8px;
+}
+
+/* CTA */
+.about-cta {
+  text-align: center;
+  padding: 60px 20px;
+}

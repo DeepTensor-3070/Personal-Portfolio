@@ -1,0 +1,144 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: rgb(16, 16, 82);
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(5, 5, 48);
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: rgb(185, 115, 250);
+}
+
+/* HERO */
+.contact-hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.contact-hero span {
+  color: rgb(185, 115, 250);
+}
+
+.contact-hero p {
+  max-width: 700px;
+  margin: 10px auto 0;
+  color: gray;
+  font-size: 15px;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+  max-width: 85vw;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* INFO */
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-info h2 {
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* FORM */
+.contact-form {
+  flex: 1;
+  min-width: 280px;
+  background-color: rgb(5, 5, 48);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: rgb(16, 16, 82);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: gray;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4141b9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.contact-form button:hover {
+  background-color: rgb(185, 115, 250);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  color: gray;
+  font-size: 13px;
+}

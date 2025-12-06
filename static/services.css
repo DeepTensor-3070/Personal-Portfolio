@@ -1,0 +1,126 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: rgb(16, 16, 82);
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: rgb(5, 5, 48);
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: rgb(185, 115, 250);
+}
+
+/* HERO */
+.services-hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.services-hero span {
+  color: rgb(185, 115, 250);
+}
+
+.services-hero p {
+  max-width: 700px;
+  margin: 10px auto 0;
+  color: gray;
+  font-size: 15px;
+}
+
+/* SERVICES GRID */
+.services-section {
+  max-width: 85vw;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* SERVICE CARD */
+.service-card {
+  background-color: rgb(5, 5, 48);
+  padding: 30px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.service-card h3 {
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: gray;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  border: 1px solid rgb(185, 115, 250);
+}
+
+/* CTA */
+.services-cta {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: rgb(5, 5, 48);
+}
+
+.services-cta h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4141b9;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  color: gray;
+  font-size: 13px;
+}
