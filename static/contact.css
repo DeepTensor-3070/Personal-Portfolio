@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +6,13 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* BODY */
+
 body {
   background-color: rgb(16, 16, 82);
   color: white;
 }
 
-/* NAVBAR */
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -44,7 +44,7 @@ nav ul li a:hover {
   color: rgb(185, 115, 250);
 }
 
-/* HERO */
+
 .contact-hero {
   text-align: center;
   padding: 80px 20px;
@@ -61,7 +61,7 @@ nav ul li a:hover {
   font-size: 15px;
 }
 
-/* CONTACT SECTION */
+
 .contact-section {
   max-width: 85vw;
   margin: auto;
@@ -74,7 +74,7 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 
-/* INFO */
+
 .contact-info {
   flex: 1;
   min-width: 250px;
@@ -90,7 +90,7 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 
-/* FORM */
+
 .contact-form {
   flex: 1;
   min-width: 280px;
@@ -135,7 +135,7 @@ nav ul li a:hover {
   background-color: rgb(185, 115, 250);
 }
 
-/* FOOTER */
+
 footer {
   text-align: center;
   padding: 15px;

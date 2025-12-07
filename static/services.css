@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +6,13 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* BODY */
+
 body {
   background-color: rgb(16, 16, 82);
   color: white;
 }
 
-/* NAVBAR */
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -44,7 +44,7 @@ nav ul li a.active {
   color: rgb(185, 115, 250);
 }
 
-/* HERO */
+
 .services-hero {
   text-align: center;
   padding: 80px 20px;
@@ -61,7 +61,7 @@ nav ul li a.active {
   font-size: 15px;
 }
 
-/* SERVICES GRID */
+
 .services-section {
   max-width: 85vw;
   margin: auto;
@@ -74,7 +74,7 @@ nav ul li a.active {
   gap: 30px;
 }
 
-/* SERVICE CARD */
+
 .service-card {
   background-color: rgb(5, 5, 48);
   padding: 30px;
@@ -98,7 +98,7 @@ nav ul li a.active {
   border: 1px solid rgb(185, 115, 250);
 }
 
-/* CTA */
+
 .services-cta {
   text-align: center;
   padding: 60px 20px;
@@ -117,7 +117,7 @@ nav ul li a.active {
   border-radius: 5px;
 }
 
-/* FOOTER */
+
 footer {
   text-align: center;
   padding: 15px;

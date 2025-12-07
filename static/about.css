@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +6,13 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* BODY */
+
 body {
   background-color: rgb(16, 16, 82);
   color: white;
 }
 
-/* NAVBAR */
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -40,7 +40,7 @@ nav ul li a.active {
   color: rgb(185, 115, 250);
 }
 
-/* HERO */
+
 .about-hero {
   text-align: center;
   padding: 70px 20px;
@@ -57,7 +57,7 @@ nav ul li a.active {
   font-size: 15px;
 }
 
-/* ABOUT CONTAINER */
+
 .about-container {
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@ nav ul li a.active {
   box-shadow: 0 0 20px rgba(185, 115, 250, 0.4);
 }
 
-/* ABOUT RIGHT */
+
 .about-right h2 {
   margin-bottom: 15px;
 }
@@ -88,7 +88,7 @@ nav ul li a.active {
   color: rgb(185, 115, 250);
 }
 
-/* SKILLS */
+
 .skills span {
   display: inline-block;
   background-color: rgb(5, 5, 48);
@@ -98,7 +98,7 @@ nav ul li a.active {
   font-size: 13px;
 }
 
-/* BUTTON */
+
 .btn {
   display: inline-block;
   margin-top: 20px;
@@ -109,7 +109,7 @@ nav ul li a.active {
   border-radius: 5px;
 }
 
-/* EXPERIENCE */
+
 .about-experience {
   padding: 60px 120px;
   text-align: center;
@@ -127,7 +127,7 @@ nav ul li a.active {
   border-radius: 8px;
 }
 
-/* CTA */
+
 .about-cta {
   text-align: center;
   padding: 60px 20px;

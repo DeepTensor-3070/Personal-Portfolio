@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Contact | Subhanshu</title>
 
-  <!-- Google Font -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -14,10 +14,45 @@
   />
 
   <link rel="stylesheet" href="static/contact.css">
+  <script>
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault(); 
+
+    const name = document.querySelector('input[placeholder="Your Name"]').value.trim();
+    const email = document.querySelector('input[type="email"]').value.trim();
+    const subject = document.querySelector('input[placeholder="Subject"]').value.trim();
+    const message = document.querySelector('textarea').value.trim();
+
+    
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (name === "") {
+      alert("Please enter your name.");
+      return;
+    }
+
+    if (!emailPattern.test(email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
+    if (message === "") {
+      alert("Please enter your message.");
+      return;
+    }
+
+  
+    alert("✅ Message sent successfully!");
+
+   
+    this.reset();
+  });
+</script>
+
 </head>
 <body>
 
-  <!-- NAVBAR -->
+
   <header>
     <nav>
       <div class="logo">Subhanshu Portfolio</div>
@@ -31,7 +66,7 @@
     </nav>
   </header>
 
-  <!-- CONTACT HERO -->
+
   <section class="contact-hero">
     <h1>Contact <span>Me</span></h1>
     <p>
@@ -40,11 +75,11 @@
     </p>
   </section>
 
-  <!-- CONTACT FORM -->
+
   <section class="contact-section">
     <div class="contact-container">
 
-      <!-- LEFT INFO -->
+
       <div class="contact-info">
         <h2>Let’s Connect</h2>
         <p>
@@ -57,7 +92,7 @@
         <p><strong>LinkedIn:</strong> linkedin.com/in/subhanshu-verma/</p>
       </div>
 
-      <!-- FORM -->
+
       <form class="contact-form">
         <h2>Send Message</h2>
 
@@ -72,7 +107,7 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
+
   <footer>
     <p>© 2025 Subhanshu | Data Science Portfolio</p>
   </footer>
