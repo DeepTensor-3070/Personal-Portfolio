@@ -1,6 +1,6 @@
 ## WEB Desiging Project
 
-# Title: Personal Portfolio Create a portfolio website that showcases your skills, projects, and resume. Include a blog section where you can share your thoughts on web development.
+* Title: Personal Portfolio Create a portfolio website that showcases your skills, projects, and resume. Include a blog section where you can share your thoughts on web development.
 
 This is personal portfolio website for Web Designing Lab , showcasing my background, projects, and skills in Data Science, Artificial Intelligence, and Machine Learning. The website highlights my work, services, and contact information in a clean, modern, and responsive design.
 
