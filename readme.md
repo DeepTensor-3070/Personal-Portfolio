@@ -17,6 +17,8 @@ It is built using HTML, CSS, and JavaScript, focusing on simplicity, performance
 ![Services](screenshots/services.png)
 ### 📩 Contact Page
 ![Contact](screenshots/contact.png)
+### Blog Page
+![Blog] (screenshots/Blog.png)
 
 ## 🛠️ Tech Stack
 - HTML
@@ -42,9 +44,11 @@ It is built using HTML, CSS, and JavaScript, focusing on simplicity, performance
     └── index.css
     └── project.css
     └── services.css
+    └── blog.css
 ├── index.html
 ├── about.html
 ├── project.html
 ├── services.html
 ├── contact.html
+├── blog.html
 └── readme.md
