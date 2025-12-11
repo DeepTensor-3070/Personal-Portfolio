@@ -16,38 +16,33 @@
   <link rel="stylesheet" href="static/contact.css">
   <script>
   document.getElementById("contactForm").addEventListener("submit", function (e) {
-    e.preventDefault(); 
+    e.preventDefault();
 
-    const name = document.querySelector('input[placeholder="Your Name"]').value.trim();
-    const email = document.querySelector('input[type="email"]').value.trim();
-    const subject = document.querySelector('input[placeholder="Subject"]').value.trim();
-    const message = document.querySelector('textarea').value.trim();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
-    
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-    if (name === "") {
+    if (!name) {
       alert("Please enter your name.");
       return;
     }
 
-    if (!emailPattern.test(email)) {
-      alert("Please enter a valid email address.");
+    if (!email) {
+      alert("Please enter your email.");
       return;
     }
 
-    if (message === "") {
+    if (!message) {
       alert("Please enter your message.");
       return;
     }
 
-  
-    alert("✅ Message sent successfully!");
+    alert("Message sent!");
 
-   
     this.reset();
   });
 </script>
+
 
 </head>
 <body>
